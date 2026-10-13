@@ -1,10 +1,21 @@
 //Crear un objeto que contenga información 
 //cadenas, valores enteros, decimales, lógicos, arreglos,nuevos objetos
 const computadora = {
-  clave: "valor",
-  entero: 4,
-  decimales: 4.82,
-  logico: [],
-  arreglos: [],
-  objetos: [{},{},{}]
+  marca: "Lenovo",
+  ramGB: "" ,
+  pantallaPulgadas: "",
+  encendida: false,
+  puertos: ["USB", "HDMI", "Audio"],
+  componentes: [
+    {nombre: "Procesador", modelo: ""},
+    {nombre: "Disco", modelo: ""},
+    {nombre: "Teclado", modelo: ""},
+    {nombre: "mouse", modelo: ""}
+  ]
 }
+
+
+console.log(computadora.marca);
+console.log(computadora.puerto);
+console.log(computadora.componentes);
+///por terminar

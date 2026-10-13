@@ -2,6 +2,11 @@
 //crear una función que reciba un arreglo de números y retorno como resultado
 //un objeto indicándonos cuántos valores son pares e impares
 
+function contarParesImpares(numeros = []){
+  let pares = 0
+  let impares=0
+}
+numeros 
 //test, demostración, console.log
 
 

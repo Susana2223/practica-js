@@ -2,20 +2,22 @@
 //cadenas, valores enteros, decimales, lógicos, arreglos,nuevos objetos
 const computadora = {
   marca: "Lenovo",
-  ramGB: "" ,
-  pantallaPulgadas: "",
-  encendida: false,
+  procesador: "AMD Ryzen 5 5500U",
+  ramGB: 8, 
+  almacenamientoGB: 238,
+  velocidadGHz: 2.10,
+  almacenamientoUsadoGB: 190.5,
+  encendida: true,
+  pantallaTactil: false,
   puertos: ["USB", "HDMI", "Audio"],
-  componentes: [
-    {nombre: "Procesador", modelo: ""},
-    {nombre: "Disco", modelo: ""},
-    {nombre: "Teclado", modelo: ""},
-    {nombre: "mouse", modelo: ""}
+  hardware: [
+    {nombre: "Disco", detalle: "SSD"},
+    {nombre: "Teclado", detalle: "Español"},
+    {nombre: "Mouse", detalle: "Mouse compatible con HID"},
+    {nombre: "Pantalla", detalle: "1920x1080, 60Hz"}
   ]
 }
 
-
 console.log(computadora.marca);
-console.log(computadora.puerto);
-console.log(computadora.componentes);
-///por terminar
+console.log(computadora.puertos);
+console.log(computadora.hardware);

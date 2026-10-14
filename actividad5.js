@@ -1,3 +1,4 @@
+//funcion 5:
 //Crear una función autoejecutable, que imprima cuántas horas, minutos y segundos
 //faltan para terminar el día
 
@@ -11,5 +12,12 @@
    console.log("Faltan", horas, "horas,", minutos, "minutos y", segundos, "segundos para terminar el día") 
 })();
 
+//funcion 6:
 //Crear una función autoejecutable que solicite un número(expresado en segundos) y nos 
 //devuelva un saludo, después del tiempo indicado
+
+(function(segundos = 0){
+    setTimeout(function(){
+        console.log("Hola, ya pasaron", segundos, "segundos. ¡Bienvenido!")
+    }, segundos * 1000)
+})(3);

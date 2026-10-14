@@ -1,9 +1,22 @@
-//funcion 3:
-//Crear una funcion que solicite dos arreglos numéricos, deberá
-//retornar la suma de ambos arreglos siempre que tengan el mismo número
-//de elementos, de lo contrario, devolver array vacío[]
-//test
+// Funcion 3:
+// crear una funcion que solicite dos arreglos numéricos, deberá
+// retornar la suma de ambos arreglos siempre que tenga el mismo número
+// de elementos, de los contrario, devolver array vacio []
 
+function sumarArreglos(arreglo1 = [], arreglo2 = []){
+    let resultado =[]
+
+    if (arreglo1.length === arreglo2.length){
+        arreglo1.forEach((valor, i) => {
+            resultado.push(valor + arreglo2[i])
+        })
+    }
+
+    return resultado
+}
+
+console.log(sumarArreglos([1,2,3], [4,5,6]))
+console.log(sumarArreglos([10, 20], [1, 2]))
 
 
 //función 4

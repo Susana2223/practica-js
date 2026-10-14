@@ -18,6 +18,10 @@ const computadora = {
   ]
 }
 
-console.log(computadora.marca);
-console.log(computadora.puertos);
-console.log(computadora.hardware);
+console.log("Marca: ", computadora.marca);
+console.log("Puertos: ", computadora.puertos);
+computadora.hardware.forEach(parte =>{
+  console.log(parte.nombre, "-", parte.detalle )
+}
+
+)
